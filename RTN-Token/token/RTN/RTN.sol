@@ -41,14 +41,12 @@ contract RTN is Context, IERC20 {
     function totalSupply() public view virtual override returns (uint256) {
         return _totalSupply;
     }
-
-    
     
     function balanceOf(address account) public view virtual override returns (uint256) {
         return _balances[account];
     }
-
-function transfer(address recipient, uint256 amount) public virtual override returns (bool) {
+    
+    function transfer(address recipient, uint256 amount) public virtual override returns (bool) {
         _transfer(_msgSender(), recipient, amount);
         return true;
     }
