@@ -7,3 +7,17 @@ TreeHacks 2021 will be the 7th-ever iteration of TreeHacks. The theme this year 
 ## Let us introduce our amazing team: 
 
 ![This is our team](Team.jpeg)
+
+## Our Main Idea
+
+Today, we live in times of rapid social change while also having unparalleled access to information and its subsequent dissemination. However modern political interaction is characterized by strong partisanship and a general lack of interest in information sharing and agreement across party lines.
+
+### Problems
+
+**1) Data breach by social media giants leading to censorship and suppression of voices**
+
+**2) Trauma survivors have difficulty navigating through triggering information
+
+**3) Creation of Echo-Chambers
+
+**4) No tangible Impact**
