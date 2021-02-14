@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Specific Issues</title>
+    <link rel = "stylesheet" type="text/css" href="Style3.css">
+</head>
+<body>
+    <header class="header">
+        <a href="Homepage.html">
+            <img class="logo" src="LogoBlack.png" alt="logo">
+        </a>
+        <nav>
+            <ul class="nav__links">
+                <li><h1>Specific Issues</h1></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button onclick="myFunctionC()" class = "moreInfoButton"><img class="infoButtonImage" src="MoreInfo.png"></button></a>
+        <div id="myDropdownC" class="dropdown-contentC">
+            <div class="pantalla">
+                <div class="pedidoTitulo">
+                    <div class="closeMoreInfoContainer">
+                        <img class="prueba" src="MoreInfo.png" onclick="myFunctionC()">
+                    </div>
+                </div>
+                <a href="MyProfile.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="ProfileLogo.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">My Profile</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="RTNWallet.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="LogoBlack.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">RTN Wallet</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="AddPost.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="AddPostIcon.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">Add Post</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="SpecificIssues.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="SpecificIssuesIcon.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">Specific Issues</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="Places.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="PlacesIcon.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">Places</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="containerButton">
+            <a href="https://docs.google.com/document/d/1bIzoK49zXDlVQtefmYsdt5vJyQIAb0OBXhZVm77JQaI/edit">
+                <button class="button">Listen & Learn</button>
+            </a>
+        </div>
+        <div class="containerButtonRight">
+            <a href="https://saytheirnames.carrd.co/#petitions">
+                <button class="button">Play your Part</button>
+            </a>
+        </div>
+        <div class="containerButton">
+            <a href="https://saytheirnames.carrd.co/#donations">
+                <button class="button">Donate</button>
+            </a>
+        </div>
+    </div>
+<script>
+    function myFunctionC() {
+        document.getElementById("myDropdownC").classList.toggle("showC");
+    }
+</script>
+</body>
+</html>

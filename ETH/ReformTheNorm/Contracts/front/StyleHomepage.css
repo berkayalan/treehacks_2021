@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+}
+header{
+    margin: 0;
+    background-color: black;
+}
+li, a, button{
+    font-size: 16px;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    font-size: 2.5em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.moreInfoButton{
+    padding: 0px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.infoButtonImage{
+    height: 40px;
+    width: 40px;
+}
+.container{
+    /*background-color: chartreuse;*/
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%,0%);
+    max-width: 600px;
+}
+.post{
+    max-width: 600px;
+    height: auto;
+    width: auto;
+    min-width: 600px;
+    /*background-color: blue;*/
+    border: 1px solid rgb(219,219,219);
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+}
+.userContainer{
+    /*background-color: crimson;*/
+    height: 50px;
+    width: calc(100%);
+}
+.profilePicContainer{
+    /*background-color: deepskyblue;*/
+    width: 50px;
+    height: calc(100%);
+}
+.pictureButton{
+    /*background-color: azure;*/
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    position: relative;
+    margin-left: 0;
+    margin-top: 50%;
+    transform: translate(0, -50%);
+    padding: 0;
+}
+.userPicture{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.usernameContianer{
+    /*background-color: darkblue;*/
+    height: calc(100% - 12px);
+    width: 150px;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 50px;
+    padding: 6px;
+}
+.username{
+    text-align: start;
+}
+.geo{
+    text-align: start;
+    font-size: 13px;
+    color: #2f2f2f;
+}
+.moreInfoPostButton{
+    /*background-color: gray;*/
+    height: calc(100%);
+    width: 50px;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 550px;
+    font-size: 30px;
+}
+.pictureContainer{
+    /*background-color: blueviolet;*/
+    height: auto;
+    max-height: 600px;
+    width: calc(100%);
+}
+.image{
+    width: calc(100%);
+    max-height: 600px;
+}
+.likeShareContainer{
+    /*background-color: black;*/
+    height: 50px;
+    width: calc(100%);
+    border-bottom: 1px solid rgb(219,219,219);
+}
+.titleContainer{
+    /*background-color: deepskyblue;*/
+    height: 50px;
+    width: calc(100% - 100px);
+    position: relative;
+    margin-top: -50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.shareButton{
+    /*background-color: azure;*/
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    position: relative;
+    margin-left: 0;
+    margin-top: 50%;
+    transform: translate(0, -50%);
+    padding: 0;
+    cursor: pointer;
+}
+.sharePicture{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+}
+.dataContainer{
+    /*background-color: deeppink;*/
+    max-height: 500px;
+    height: auto;
+    width: calc(100%);
+}
+.title{
+    color: black;
+    font-size: 20px;
+    /*background-color: deeppink;*/
+    height: 20px;
+    padding: 15px;
+}
+.texto{
+    text-align: justify;
+    padding: 15px;
+    color: #2f2f2f;
+}
+.dropdownC {
+    position: relative;
+    display: inline-block;
+}
+.dropbtnC {
+    display: inline-block;
+    height: 40px;
+    vertical-align: top;
+    width: 40px;
+    border: 0;
+}
+.dropbtnC:hover, .dropbtnC:focus {
+    background-color: #2980B9;
+}
+.dropdown-contentC {
+    display: none;
+    /* min-width: 300px; */
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 55px;
+    right: 0px;
+    /*  */
+    transition: all .4s ease;
+    display: none;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    bottom: 0;
+    /* max-width: 400px; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 14;
+    outline: 0;
+}
+.dropdown-contentC a {
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+}
+.pantalla{
+    min-width: 300px;
+    /* max-width: 400px; */
+    width: 400px;
+    height: 100%;
+    transition: all .4s ease;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    bottom: 0;
+    max-width: 500px;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    right: 0px;
+    box-sizing: border-box;
+    outline: 0px;
+}
+.showC {
+    display: block;
+}
+.pedidoTitulo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0;
+    border-bottom: 2px solid #ffffff;
+    margin: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    height: 107px;
+    text-align: start;
+}
+.closeMoreInfoContainer{
+    /*background-color: greenyellow;*/
+    height: 107px;
+    width: 100px;
+    position: fixed;
+    right: 300px;
+}
+.prueba{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.moreInfoContainerData{
+    height: 107px;
+    width: calc(100%);
+    /*background-color: deepskyblue;*/
+    cursor: pointer;
+}
+.iconMoreInfoContainer{
+    height: calc(100%);
+    width: 107px;
+    /*background-color: crimson;*/
+}
+.textMoreInfoContainer{
+    height: calc(100% - 70px);
+    width: calc(100% - 107px);
+    /*background-color: greenyellow;*/
+    margin-top: -107px;
+    margin-left: 107px;
+    padding: 35px;
+}
+.prueba2{
+    margin-top: 23.5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 60px;
+    width: 60px;
+    position: relative;
+}
+.moreInfoText{
+    font-size: 30px;
+    color: white;
+}
