@@ -6,7 +6,13 @@ TreeHacks 2021 will be the 7th-ever iteration of TreeHacks. The theme this year 
 
 ## Our Main Idea
 
-Today, we live in times of rapid social change while also having unparalleled access to information and its subsequent dissemination. However modern political interaction is characterized by strong partisanship and a general lack of interest in information sharing and agreement across party lines.
+Today we're living in times wherein we have unparalleled access to information and its subsequent dissemination, which vastly increases the potential for rapid social change.
+
+However, modern political interaction is often characterized by plain indifference along with a general lack of interest in information sharing across varying viewpoints as well as the indulgence in performative allyship leading to no tangible impact.
+
+Additionally, social media is wildly notorious for its unethical use of data and centralized algorithms that censor or suppress certain voices while promoting content which its beneficiaries can profit off of. Activism in countries witnessing a rise in polarised governments has also been met with strict action being taken against the ones who dare question the status quo and hence it becomes imperative for platforms to avoid data breaches at all costs.
+
+With Reform the Norm we advocate to break the norm and then reform it, one step at a time and we do so by incentivizing civic engagement on our decentralized open-for-all platform.
 
 ## Problems
 
@@ -18,13 +24,6 @@ Today, we live in times of rapid social change while also having unparalleled ac
 
 **4) No tangible Impact**
 
-## Inspiration
-
-We're living in times with unparalleled access to information and its subsequent dissemination, hence vastly increasing the potential for rapid social change.
-
-However, modern political interaction is characterized by a general lack of interest in information sharing across varying viewpoints as well as the indulgence in performative allyship leading to no tangible impact. Additionally, social media is wildly notorious for its unethical use of data and algorithms to censor or suppress certain voices while promoting content which they can profit off of. Activism in countries witnessing a rise in polarised governments has also been met with strict action being taken against the ones who dare question the status quo.
-
-With Reform the Norm we advocate to break the norm and then reform it, one step at a time and we do so by incentivizing civic engagement on our decentralized open-for-all platform.
 
 ## What it does
 
@@ -43,7 +42,8 @@ Reform the Norm, built on the Ethereum Blockchain provides a decentralized platf
 
 4) Lastly users can specify which issues their post tackles and exactly where in the world is it affecting people. We sort information by "Specific Issues" and "Places" and provide links to our users that would allow them to learn more about the topic, play their part, and donate so that tangible impact occurs along with just social awareness and change.
 
-**[![Check out our video for detailed demo](https://img.youtube.com/vi/SxJzEqrgzvE&t=3s&ab_channel=ReformtheNorm.jpg)](https://www.youtube.com/watch?v=SxJzEqrgzvE&t=3s&ab_channel=ReformtheNorm)**
+**![Check out our video for detailed demo](https://www.youtube.com/watch?v=SxJzEqrgzvE&t=3s&ab_channel=ReformtheNorm)**
+
 
 ## How we built it
 
