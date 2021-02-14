@@ -452,7 +452,7 @@ var contractABI = [
   ];
   var contractAddress = '0xA30Cc6685d7189682b3AB09a839939fC5a2d4eeb';
   
-  const web3 = new Web3('https://eth-ropsten.alchemyapi.io/v2/####');
+  const web3 = new Web3('https://eth-ropsten.alchemyapi.io/v2/HnAQuGEn_HbCOlWSR8vDpIINnQjfkQ2C');
   
   //Pointer to deployed instance on the blockchain:
   var ReformTheNormMain = new web3.eth.Contract(contractABI, contractAddress);
@@ -462,7 +462,7 @@ var contractABI = [
     var postCounter = await ReformTheNormMain.methods.postCount().call()
     console.log(postCounter);
 
-    for (i = 1; i <= postCounter; i++){
+    for (i = 2; i <= postCounter; i++){
 
         ReformTheNormMain.methods.posts(i).call().then(result => {
             console.log(result);
@@ -477,13 +477,69 @@ var contractABI = [
 
             var profileDiv = document.createElement('div');
             profileDiv.className = 'pictureButton';
-            profileDiv.innerHTML = '<button class="pictureButton"><img class="userPicture" src="Usuario.jpg"></button>';
+
+            var profileButton = document.createElement('button');
+            profileButton.className = "pictureButton";
+
+            var profileImage = document.createElement('img');
+            profileImage.className = 'userPicture';
+            profileImage.src = "Usuario.jpg";
+
+            profileButton.appendChild(profileImage);
+            profileDiv.appendChild(profileButton);
 
             var usernameDiv = document.createElement('div');
             usernameDiv.className = 'usernameContianer';
-            usernameDiv.innerHTML = "<p class='username'>" + result.sender + "</p><p class='geo'>Movement Location: " + result.location + "</p>";
 
-            var moreOptions = '<div class="moreInfoPostButton">...</div>';
+            var userP = document.createElement('p');
+            userP.className = 'username';
+            userP.innerText = result.sender;
+
+            var userG = document.createElement('p');
+            userG.className = 'geo';
+            userG.innerText = "Movement Location: " + result.location;
+
+            usernameDiv.appendChild(userP);
+            usernameDiv.appendChild(userG);
+
+            var picDiv = document.createElement('div');
+            picDiv.className = 'pictureContainer';
+
+            var pic = document.createElement('img');
+            pic.className = 'image';
+            pic.src = result.hash;
+
+            picDiv.appendChild(pic);
+
+            //var footerPic = "<div class='likeShareContainer'><div class='profilePicContainer'><button class='pictureButton'><img class='userPicture' src='Logo.png'></button></div><div class='titleContainer'><h1 class='title'>" + result.mainmov + "</h1></div><div class='moreInfoPostButton'><button class='shareButton'><img class='sharePicture' src='shareIcon.png'></button></div></div>";
+
+            var postTextDiv = document.createElement('div');
+            postTextDiv.className = 'dataContainer';
+
+            var postText = document.createElement('p');
+            postText.className = 'texto';
+            postText.innerText = result.text;
+
+            postTextDiv.appendChild(postText);
+
+            var footerDiv = document.createElement('div');
+            footerDiv.className = 'dataContainer';
+
+            var footerText = document.createElement('p');
+            footerText.className = 'texto';
+            footerText.innerText = "Tags: " + result.tags;
+
+            footerDiv.appendChild(footerText);
+
+            headDiv.appendChild(profileDiv);
+            headDiv.appendChild(usernameDiv);
+
+            postDiv.appendChild(headDiv);
+            postDiv.appendChild(picDiv);
+            postDiv.appendChild(postTextDiv);
+            postDiv.appendChild(footerDiv);
+
+            postCont.appendChild(postDiv);
 
           });
 
