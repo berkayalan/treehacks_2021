@@ -43,6 +43,9 @@ Reform the Norm, built on the Ethereum Blockchain provides a decentralized platf
 
 4) Lastly users can specify which issues their post tackles and exactly where in the world is it affecting people. We sort information by "Specific Issues" and "Places" and provide links to our users that would allow them to learn more about the topic, play their part, and donate so that tangible impact occurs along with just social awareness and change.
 
+**![Check out our video for detailed demo](https://www.youtube.com/watch?v=SxJzEqrgzvE&t=3s&ab_channel=ReformtheNorm)**
+
+
 ## How we built it
 
 We started off with designing the prototype with Figma, then built the front-end with HTML, CSS & Javascript. The RTN tokens were made using the ERC-20 standard in solidity. The decentralized back-end was built into the Ethereum Blockchain with Solidity smart contracts, image hosting in IPFS, and local development and testing with Truffle and Ganache. We used the Alchemy API for deploying to the Ropsten TestNet and transaction debugging, and Web3 for integrating our solidity smart contracts with the front-end. We used Python for the trigger warnings side and also implemented it in Javascript.
