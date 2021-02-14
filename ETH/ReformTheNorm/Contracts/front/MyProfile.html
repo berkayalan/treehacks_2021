@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <link rel = "stylesheet" type="text/css" href="StyleMyProfile.css">
+</head>
+<body>
+    <header class="header">
+        <a href="Homepage.html">
+            <img class="logo" src="LogoBlack.png" alt="logo">
+        </a>
+        <nav>
+            <ul class="nav__links">
+                <li><h1>Reform The Norm</h1></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button onclick="myFunctionC()" class = "moreInfoButton"><img class="infoButtonImage" src="MoreInfo.png"></button></a>
+        <div id="myDropdownC" class="dropdown-contentC">
+            <div class="pantalla">
+                <div class="pedidoTitulo">
+                    <div class="closeMoreInfoContainer">
+                        <img class="prueba" src="MoreInfo.png" onclick="myFunctionC()">
+                    </div>
+                </div>
+                <a href="MyProfile.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="ProfileLogo.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">My Profile</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="RTNWallet.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="LogoBlack.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">RTN Wallet</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="AddPost.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="AddPostIcon.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">Add Post</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="SpecificIssues.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="SpecificIssuesIcon.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">Specific Issues</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="Places.html">
+                    <div class="moreInfoContainerData">
+                        <div class="iconMoreInfoContainer">
+                            <img class="prueba2" src="PlacesIcon.png">
+                        </div>
+                        <div class="textMoreInfoContainer">
+                            <h2 class="moreInfoText">Places</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="profileContainer">
+            <img class="usuarioImage" src="Usuario.jpg">
+            <h2 class="username">Bill Gates</h2>
+        </div>
+        <div class="post">
+            <div class="pictureContainer">
+                <img class="image" src="prueba.jpg">
+            </div>
+            <div class="likeShareContainer">
+                <div class="profilePicContainer">
+                    <button class="pictureButton"><img class="userPicture" src="Logo.png"></button>
+                </div>
+                <div class="titleContainer">
+                    <h1 class="title">LGBT Rights</h1>
+                </div>
+                <div class="moreInfoPostButton">
+                    <button class="shareButton"><img class="sharePicture" src="shareIcon.png"></button>
+                </div>
+            </div>
+            <div class="dataContainer">
+                <p class="texto">In 2018, the court ruled the term “spouse” in a directive on the exercise of free movement under EU law is gender-neutral and therefore covers the same-sex spouse of an EU citizen. This case centered on whether a gay Romanian-American couple were entitled to the same residency rights in Romania as other married couples in the EU, even though Romania only recognizes civil partnerships rather than marriage between same-sex partners.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunctionC() {
+            document.getElementById("myDropdownC").classList.toggle("showC");
+        }
+    </script>
+</body>
+</html>
