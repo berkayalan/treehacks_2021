@@ -22,4 +22,24 @@ Today, we live in times of rapid social change while also having unparalleled ac
 
 **4) No tangible Impact**
 
+## Inspiration
+
+We're living in times with unparalleled access to information and its subsequent dissemination, hence vastly increasing the potential for rapid social change.
+
+However, modern political interaction is characterized by a general lack of interest in information sharing across varying viewpoints as well as the indulgence in performative allyship leading to no tangible impact. Additionally, social media is wildly notorious for its unethical use of data and algorithms to censor or suppress certain voices while promoting content which they can profit off of. Activism in countries witnessing a rise in polarised governments has also been met with strict action being taken against the ones who dare question the status quo.
+
+With Reform the Norm we advocate to break the norm and then reform it, one step at a time and we do so by incentivizing civic engagement on our decentralized open-for-all platform.
+
+## What it does
+
+Reform the Norm, built on the Ethereum Blockchain provides a decentralized platform for our users to Educate, Listen, Share and Act; covering social movements across issues and across countries. The decentralization gives people back their power and also ensures that their information will be kept safe from any kind of breach. We further provide incentives to our users who actively raise their voices and contribute to the betterment of society by rewarding them with RTN tokens (our own cryptocurrency).
+
+## How we built it
+
+We started off with designing the prototype with Figma, then built the front-end with HTML, CSS & Javascript. The RTN tokens were made using the ERC-20 standard in solidity. We used the Alchemy Web3 API for integrating our solidity smart contracts with the front-end and deployed the application on the Ropsten testnet.
+
+## Challenges we ran into
+
+We ran into a bunch of problems using the Alchemy API to integrate our smart contracts with our front-end.
+
 ### Visit our project in Devpost: https://devpost.com/software/reform-the-norm
