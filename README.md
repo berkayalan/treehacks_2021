@@ -43,8 +43,7 @@ Reform the Norm, built on the Ethereum Blockchain provides a decentralized platf
 
 4) Lastly users can specify which issues their post tackles and exactly where in the world is it affecting people. We sort information by "Specific Issues" and "Places" and provide links to our users that would allow them to learn more about the topic, play their part, and donate so that tangible impact occurs along with just social awareness and change.
 
-**![Check out our video for detailed demo](https://www.youtube.com/watch?v=SxJzEqrgzvE&t=3s&ab_channel=ReformtheNorm)**
-
+**[![Check out our video for detailed demo](https://img.youtube.com/vi/SxJzEqrgzvE&t=3s&ab_channel=ReformtheNorm.jpg)](https://www.youtube.com/watch?v=SxJzEqrgzvE&t=3s&ab_channel=ReformtheNorm)**
 
 ## How we built it
 
