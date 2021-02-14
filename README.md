@@ -70,6 +70,38 @@ We intend to work a little more on:
 - Coming up with a more effective protocol for incentive provision
 And finally, if all goes well we might release a whitepaper for an ICO (initial coin offering) for our cryptocurrency RTN and deploy our smart contract on the Ethereum MainNet.
 
+## Ethics
+
+We at Reform the Norm believe that the world's current socio-political crisis calls for each one of us to actively raise our voice and collectively advocate for social justice. Various countries have witnessed huge political movements gaining traction via social media as the voices of the marginalized, which have historically been violently suppressed are finally attaining their well-deserved level platform.
+
+1) However, activism in the digital age even though raises rapid awareness and pressurizes the ones in power to take quick action, doesn't come without its downsides. There have been several instances wherein social media has been misused by polarised governments for all sorts of unethical actions from inciting riots to online surveillance of citizens. It has also been noted how certain governments have targetted, falsely charged, and subsequently incarcerated activists from marginalized factions since they're the ones who're the most vulnerable in a socio-political climate against their free-willed existence. Hence, when it comes to raising awareness about the wrongs being done by the people in power we need to make sure that people and their personal information is kept safe.
+
+The internet today is broken by design. We see wealth, power, and influence placed in the hands of a limited few tech giants. Markets, institutions, and trust relationships have been transposed to this new platform, with the density, power, and incumbents changed, but with the same old dynamics. Centralization is not socially tenable long-term. Enter Web 3.0.
+
+Web 3.0 is an inclusive set of protocols to provide building blocks for application makers. These building blocks take the place of traditional web technologies but present a whole new way of creating applications. Decentralized applications or DApps have their backend code (smart contracts) running on a decentralized network and not a centralized server. A smart contract is like a set of rules that live on-chain for all to see and run exactly according to those rules. Once DApps are deployed on the Ethereum network you can't change them. DApps can be decentralized because they are controlled by the logic written into the contract, not an individual or a company.
+
+Acknowledging how the future needs to be decentralized in order for the world wide web to be an all-inclusive ethical space like it was initially meant to be, we decided to make our web-application promoting civic engagement decentralized by building it on the Ethereum blockchain. Doing so ensures that our user's data is kept safe from any kind of breach and it also makes sure that the algorithms behind the working of our DApp are transparent and fair.
+
+2) Even though decentralizing our application ensures that the server-side is completely ethical and censorship-resistant we still might have a couple of problems when it comes to sharing information about social causes, them being -
+
+a. Information regarding systemic and systematic oppression might trigger users with PTSD and other anxiety disorders
+
+We have hence given creators of the content the provision to add trigger warning tags so that we can mark content that contains triggering information.
+
+Future ~ We further intend to work on this part by including NLP algorithms into our smart contracts which would automatically generate trigger warning tags.
+
+b. Spreading of Misinformation
+
+Since our platform would be open-for-all for it to be truly democratic there is a risk of people spreading misinformation which could lead to mass panic or further polarization of opinions.
+
+Future ~ We intend to counter this by integrating the Fake News Detection API into our smart contract and generating a warning for other users if the information shared is false.
+
+c. Privileged users co-opting the struggles of the marginalized
+
+With every movement, there comes a wave of performative allyship wherein the privileged take away the voices of the marginalized and co-opt their entire struggle.
+
+Future ~ Taking in more user information (race, religion, ethnicity, sexuality, gender identity, disability, caste, class, etc.) and giving a higher platform to the marginalized factions directly being affected by the issue being talked about.
+
 ## Let us introduce our amazing team: Reform the Norm
 
 ![This is our team](Team.jpeg)
